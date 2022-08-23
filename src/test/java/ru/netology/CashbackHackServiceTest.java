@@ -34,7 +34,7 @@ public class CashbackHackServiceTest {
     }
     @Test
     public void shouldSow0To() {
-        int amount = 1500;
+        int amount = 1400;
         int expected = 0;
         int actual = service.remain(amount);
 
